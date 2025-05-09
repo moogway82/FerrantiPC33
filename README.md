@@ -4,6 +4,10 @@ A simple repo which collects together the information I found whilst troubleshoo
 
 The schematics are incomplete and just what I could find out from beeping out various signals.
 
+The User Manual pics are from the very similar Ferranti PC31 and were kindly provided by a user from the [UK Vintage Radio Restoration and Repair forums](https://www.vintage-radio.net/forum/index.phpfrom). The DIP switch settings and beep codes appear to match the PC33. I think these machines are all related and in the Ferranti PC1860 range which is reffered to in the BIOS:
+
+``Ferranti PC1860 Bios Vers 2.0``
+
 ## The ULAs and PALs
 
 ### ULA 5RA022E-2
