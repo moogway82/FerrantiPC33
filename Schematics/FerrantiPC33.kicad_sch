@@ -20346,6 +20346,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 45.72) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0730d631-f099-40e5-9cc2-dbfbd8a52b2c")
+	)
+	(wire
+		(pts
 			(xy 773.43 468.63) (xy 770.89 468.63)
 		)
 		(stroke
@@ -21097,7 +21107,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 463.55) (xy 156.21 463.55)
+			(xy 144.78 463.55) (xy 185.42 463.55)
 		)
 		(stroke
 			(width 0)
@@ -21358,6 +21368,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 431.8) (xy 161.29 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35764997-1e32-499f-8289-4289d65f86d0")
+	)
+	(wire
+		(pts
 			(xy 604.52 78.74) (xy 660.4 78.74)
 		)
 		(stroke
@@ -21415,6 +21435,16 @@
 			(type default)
 		)
 		(uuid "3931fd81-182d-41e5-abe7-83befd446b03")
+	)
+	(wire
+		(pts
+			(xy 161.29 461.01) (xy 144.78 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a791cc4-6091-4966-b005-a497e4a67ddd")
 	)
 	(wire
 		(pts
@@ -22537,6 +22567,16 @@
 			(type default)
 		)
 		(uuid "716a8022-6071-49f1-9fc6-04be5cd69e14")
+	)
+	(wire
+		(pts
+			(xy 161.29 431.8) (xy 161.29 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7185343f-e1e2-4410-b3c8-16db1d18f3d4")
 	)
 	(wire
 		(pts
@@ -24251,16 +24291,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 461.01) (xy 185.42 461.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d021e25f-f95a-49b1-8091-0823a3bdf7d2")
-	)
-	(wire
-		(pts
 			(xy 492.76 289.56) (xy 455.93 289.56)
 		)
 		(stroke
@@ -25313,6 +25343,16 @@
 		)
 		(uuid "05ce2a37-40b4-40ad-a1b5-1f8e714f2ae1")
 	)
+	(label "8253_CLKS"
+		(at 185.42 463.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0695af17-60f2-4b04-98a8-10a33d110f0e")
+	)
 	(label "A18"
 		(at 243.84 360.68 180)
 		(effects
@@ -26182,16 +26222,6 @@
 			(justify left bottom)
 		)
 		(uuid "62ed96b8-9ac1-491d-961f-fc1150cfb3e9")
-	)
-	(label "8253_CLKS"
-		(at 156.21 463.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64280f8e-31ff-443c-a208-dc0a15a6b1eb")
 	)
 	(label "5716_245_DIR"
 		(at 533.4 471.17 180)
@@ -28151,28 +28181,6 @@
 			)
 		)
 	)
-	(global_label "PCLK"
-		(shape output)
-		(at 185.42 461.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77a4a65e-fc8c-4e35-9d97-dbc321350831")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.2433 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUF_CLK_INV"
 		(shape input)
 		(at 487.68 41.91 180)
@@ -28723,6 +28731,28 @@
 			)
 		)
 	)
+	(global_label "PCLK"
+		(shape input)
+		(at 113.03 431.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2102f65-6fd2-49d5-ba4f-1e445be564a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2067 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nDMAWAIT?"
 		(shape input)
 		(at 27.94 35.56 180)
@@ -28807,6 +28837,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCLK"
+		(shape output)
+		(at 67.31 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e06fe32e-1750-47ca-943d-1931915c873c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.1333 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -32427,7 +32479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f27452-03b0-4a22-a083-eb8c596c3751")
-		(property "Reference" "U28"
+		(property "Reference" "U5716"
 			(at 548.2941 440.69 0)
 			(effects
 				(font
@@ -32535,7 +32587,7 @@
 		(instances
 			(project "FerrantiPC33"
 				(path "/69e7ee7f-eba6-467b-99f5-85e34f143cc1"
-					(reference "U28")
+					(reference "U5716")
 					(unit 1)
 				)
 			)
@@ -35811,7 +35863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ccf004-caad-4fde-88ea-5b07331d2e97")
-		(property "Reference" "U29"
+		(property "Reference" "U5916"
 			(at 548.2941 490.22 0)
 			(effects
 				(font
@@ -35919,7 +35971,7 @@
 		(instances
 			(project "FerrantiPC33"
 				(path "/69e7ee7f-eba6-467b-99f5-85e34f143cc1"
-					(reference "U29")
+					(reference "U5916")
 					(unit 1)
 				)
 			)
@@ -37480,10 +37532,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6fc5ad8-1e26-4b2a-984d-6c4bc08e1f1d")
 		(property "Reference" "C1"
-			(at 74.93 48.26 90)
+			(at 77.978 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37491,7 +37542,7 @@
 			)
 		)
 		(property "Value" "45pF"
-			(at 74.93 50.8 90)
+			(at 78.994 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
